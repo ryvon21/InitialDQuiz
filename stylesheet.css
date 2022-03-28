@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Oswald&display=swap');
+
+
+
+ 
+
+ body {
+
+    background: #38aecc;
+
+    
+
+}
+
+
+
+.title {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    justify-content: space-between
+
+}
+
+
+
+.title_container {
+
+    font-family: 'Notable', sans-serif;
+
+    font-size: 30px;
+
+}
+
+
+
+.logo {
+
+   width: 150px;
+
+   height: auto;
+
+}
+
+
+
+.container {
+
+    margin: 0 auto;
+
+    padding-top: 25px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    
+
+}
+
+
+
+.quiz {
+
+    font-family: 'Oswald', sans-serif;
+
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+.submit_btn {
+
+    font-family: 'Oswald', sans-serif;
+
+    font-size: 18px;
+
+}
+
+
+
+.tile {
+
+    width: 40vw;
+
+    height: 60vh;
+
+    text-align: center;
+
+    border-radius: 15%;
+
+    padding-bottom: 35px;
+
+    margin-left: 100px;
+
+    background: rgb(231,110,110);
+
+    background: linear-gradient(0deg, rgba(231,110,110,1) 0%, rgba(201,56,56,1) 44%, rgba(191,23,23,1) 100%);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    font-family: 'Notable', sans-serif;
+
+    font-size: 30px;
+
+    letter-spacing: 2px;
+
+}
+
+
+
+.tile img {
+
+    height: 300px;
+
+    width: 450px;
+
+    border-radius: 5%;
+
+}
+
+/* Smartphones */
+@media only screen and (max-width : 320px) {
+    .title_container {
+        font-size: 16px;
+    }
+    
+    .logo{
+        width: 50px;
+    }
+
+    .tile {
+        font-size: 16px;
+        width: 88vw;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .tile img {
+        width: 200px;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width : 375px) {
+    body {
+        background: #38aecc;
+    }
+
+    .title_container {
+        font-size: 20px;
+        width: 100vw;
+    }
+
+    .tile {
+        font-size: 16px;
+        width: 88vw;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .tile img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width : 390px) {
+    .tile {
+        font-size: 16px;
+        width: 88vw;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .tile img {
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width : 425px) {
+    body {
+        background: #38aecc;
+    }
+
+    .title_container {
+        font-size: 25px;
+    }
+
+    .tile {
+        font-size: 16px;
+        width: 88vw;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .tile img {
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+ 
+
+/* Desktop */
+@media only screen and (min-width : 1024px) and (max-width : 1200px) {
+    .logo {
+        width: 100px;
+    }
+
+    .tile {
+        font-size: 20px;
+        width: 45vw;
+        height: 48vh;
+        margin: 0 auto;
+    }
+
+    .tile img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+    
